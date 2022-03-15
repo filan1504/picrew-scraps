@@ -39,7 +39,29 @@ main-folder/
  after navigating to the main-folder and running `python3 renamer.py y` the filenames will have changed to
 
 ```
-
+main-folder/
+├─ renamer.py
+├─ body-shapes/
+│  ├─ variant1/
+│  │  ├─ 0001.png
+│  │  ├─ 0003.png
+│  │  ├─ 0002.png
+│  ├─ variant2/
+│  │  ├─ 0002.png
+│  │  ├─ 0001.png
+│  ├─ 0002.png
+│  ├─ 0001.png
+├─ hair/
+│  ├─ black/
+│  │  ├─ 0001.png
+│  │  ├─ 0002.png
+│  ├─ brown/
+│  │  ├─ 0001.png
+│  │  ├─ 0002.png
+│  ├─ blonde/
+│  │  ├─ 0001.png
+│  ├─ hair ideas.txt
+│  ├─ all hair.psd
 ```
 
 as you can see the tool renamed all .png files (even the ones that the user would not necessarily want renamed like "inspo-collage.png and shapes.reference.png")
